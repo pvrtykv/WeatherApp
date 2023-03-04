@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WeatherController {
     WeatherService weatherService;
 
-    @Operation(summary = "Get weather forecast for a given city")
+    @Operation(summary = "Get current weather for a given city")
     @ApiResponse(responseCode = "200", description = "Operation successful")
     @ApiResponse(responseCode = "404", description = "City not found")
     @GetMapping("/current-weather/{cityName}")
