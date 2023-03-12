@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weather.main.iml" filepath="$PROJECT_DIR$/.idea/modules/weather.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weather.test.iml" filepath="$PROJECT_DIR$/.idea/modules/weather.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/.idea/modules/com.github.pvrtykv.weather.main.iml" filepath="$PROJECT_DIR$/backend/.idea/modules/com.github.pvrtykv.weather.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/.idea/modules/com.github.pvrtykv.weather.test.iml" filepath="$PROJECT_DIR$/backend/.idea/modules/com.github.pvrtykv.weather.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/.idea/modules/weather.main.iml" filepath="$PROJECT_DIR$/backend/.idea/modules/weather.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/.idea/modules/weather.test.iml" filepath="$PROJECT_DIR$/backend/.idea/modules/weather.test.iml" />
     </modules>
   </component>
 </project>

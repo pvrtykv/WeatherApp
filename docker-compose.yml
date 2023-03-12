@@ -1,10 +1,16 @@
 version: "3"
 
 services:
-  weather:
-    build: .
+  weather-backend:
+    build: ./backend
     restart: always
     ports:
       - "8080:8080"
     environment:
       - API_KEY=${API_KEY}
+
+  weather-frontend:
+    build: ./frontend
+    restart: always
+    ports:
+      - "80:80"

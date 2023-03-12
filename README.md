@@ -1,6 +1,6 @@
 ## WeatherApp
 
-Simple API that retrieves weather for a given city. This application uses openweathermap API as data source.
+Simple app that retrieves weather for a given city. This application uses openweathermap API as data source. 
 
 
 ### How to run
@@ -12,14 +12,13 @@ Create `.env` file in repository root directory
 ```shell
 API_KEY=key # API key from OpenWeather API
 ```
-Then run following commands:
+Then run following command:
 ```shell
-docker-compose build
-docker-compose up
+docker-compose up --build
 ```
 
 ### Connecting to the service
-Server runs on port `8080`.
+Frontend runs on port `80`, server runs on port `8080`.
 
 ### Endpoints
 - Weather query
@@ -35,7 +34,9 @@ Server runs on port `8080`.
     "pressure": "1011.0hPa",
     "windSpeed": "5.14m/s",
     "humidity": "77.0%",
-    "clouds": "Overcast"
+    "clouds": "Overcast",
+    "description":"scattered clouds",
+    "iconId":"03n"
     }
     ```
 - Swagger UI
