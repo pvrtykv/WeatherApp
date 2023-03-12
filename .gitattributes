@@ -1,3 +1,5 @@
+* text=auto eol=lf
+
 ###### Git
 .gitattributes text
 .gitignore text
