@@ -15,7 +15,7 @@ form.addEventListener("submit", e => {
     addWeatherData(data);
     })
     .catch(() => {
-        msg.textContent = "Wrong city name!";
+        msg.textContent = "Wrong city name! 😒";
         weather.innerHTML = ``;
     });
     msg.textContent = "";
