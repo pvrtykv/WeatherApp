@@ -19,26 +19,3 @@ docker-compose up --build
 
 ### Connecting to the service
 Frontend runs on port `80`, server runs on port `8080`.
-
-### Endpoints
-- Weather query
-``/current-weather/{cityName}``
-  - Description: Get current weather for a given city.
-  - Params:
-    - cityName - name of the city we want to get weather from
-  - Example of API response:
-  ```json
-    {
-    "temperature": "2.08°C",
-    "feelsLike": "-2.39°C",
-    "pressure": "1011.0hPa",
-    "windSpeed": "5.14m/s",
-    "humidity": "77.0%",
-    "clouds": "Overcast",
-    "description":"scattered clouds",
-    "iconId":"03n"
-    }
-    ```
-- Swagger UI
-``/swagger-ui.html``  
-
